@@ -1,0 +1,279 @@
+/* Feuille de style de niveau 1 */
+
+/* Structure */
+
+body 
+{ 
+   margin: 10px;
+   padding: 0px;   
+}
+header
+{ 
+   height: auto;
+}
+#entete
+{
+color: blue;
+ font-size: 22px; /* Paragraphes de 14 pixels */
+ }
+
+.imageflottante
+{
+    float: left;
+    width: 350px;
+    height: 100px;
+}
+h1
+{
+   margin: 0px 0px 0px 0px;
+    font-size: 22px; /* h1 de 22 pixels */
+   color: grey;
+}
+h2
+{
+   padding-left: 5px;
+    font-size: 14px; /* h2 de 16 pixels */
+     color: grey;
+}
+h3
+{
+   margin: 0px 0px 0px 0px;
+    font-size: 14px; /* h3 de 14 pixels */
+     color: grey;
+}
+div#titre
+{ 
+   height: 52px;
+   margin: 0px 0px 0px 0px;
+   padding: 5px 0px 5px 0px;   
+}
+
+
+nav
+{ 
+   float: left;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   width: 10%;
+}
+nav ul
+{ 
+   width: 100%;
+}
+nav li 
+{
+   margin-left: -3em;
+   margin-right: 4em;
+   padding: 5px 0px 5px 0px;
+   border: 1px solid gray;
+}
+nav a 
+{ 
+   padding: 5px 35px 5px 5px;
+}
+article
+{ 
+   float: left;
+   margin: 10px 0px 10px 0px;
+   padding: 0px 0px 0px 15px;
+   width: 80%;
+}
+div#contact
+{ 
+   float: left;
+   margin: 10px 0px 10px 0px;
+   padding: 0px 0px 0px 15px;
+}
+div#bloc_contact
+{ 
+   float: left;
+   margin: 10px 0px 10px 0px;
+   padding: 0px 0px 0px 15px;
+}
+footer
+{ 
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+}
+footer p
+{
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 5px;
+}
+hr
+{
+   clear: both;
+   margin: 0px 0px 0px 0px;
+}
+p
+{
+   padding: 5px 5px 5px 5px;
+     color: white;
+}
+li
+{
+   padding: 5px 5px 5px 5px;
+     color: white;
+}
+table
+{
+   width: 100%;
+   margin: 10px 0px 10px 0px;
+   padding: 0px 0px 0px 0px;
+}
+tr 
+{
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+}
+td 
+{
+   margin: 0px 0px 0px 0px;
+   padding: 5px 5px 5px 5px;
+}
+textarea 
+{  
+   margin: 0px 5px 0px 0px;
+   padding: 5px 5px 5px 5px;
+}
+
+/* Décoration */
+
+body 
+{ 
+   background: url(images/fondhigh.jpg) fixed no-repeat; 
+  
+   /*background-position: left;*/
+   }
+   @font-face 
+   {
+   font-family: 'california';
+    src: url('california.otf');
+     src: url('california.ttf') format('truetype');
+        
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+h1 { font-family: california; }
+h2 { font-family: california; }
+h3 { font-family: california; }
+
+#entete h3 { font-family: Arial;  font-size: 22px;text-transform: capitalize;}
+
+hr { border: 1px solid gray; /*visibility: visible;*/ }
+
+table { border: 1px solid #3F3F3F; }
+
+nav li { list-style-type: none; }
+nav li:hover { background-color: white; }
+nav a:link, nav a:visited { text-decoration: none; font-family: california; font-size: 14px; color: white; font-style: normal; }
+nav a:hover { text-decoration: none; color: gray; background-color: transparent; }
+
+article {  }
+article li { list-style-type: square; }
+
+div#contact { border-left: 2px solid gray; }
+div#bloc_contact {  }
+div#bloc_contact table { margin: 0px; border: 0px; }
+div#bloc_contact td { padding: 0px; text-align: center; }
+div#bloc_contact tr { background-color: transparent; }
+div#bloc_contact a:link, a:visited, a:hover { text-decoration: none; background-color: transparent; }
+
+footer p { font-family: Arial; font-size: 10px; font-style: italic; text-align:right; }
+footer a { text-decoration: none; font-family: Arial; font-size: 10px; font-style: italic; color: white; }
+footer a:link, a:visited { text-decoration: none; font-family: Arial; font-size: 10px; font-style: italic; color: white; }
+footer a:hover { text-decoration: none; font-family: Arial; font-size: 10px; font-style: italic; color: white; background-color: transparent; }
+
+a { text-decoration: underline; font-family: Arial; font-size: 12px; color: white; font-style: normal; }
+a:link, a:visited { text-decoration: underline; font-family: Arial; font-size: 12px; color: white; font-style: normal; }
+a:hover { text-decoration: none; background-color: gray; color: white; }
+
+td { font-family: Arial; color: #000000; font-size: 15px; width: 20%; }
+td.center { text-align: center; }
+td.justify { text-align: justify; }
+tr { background-color: #AFAFAF; }
+
+input { font-family: Arial; font-size: 14px; font-weight: normal; background-color: #F5F5F5; color: #000000; border: 1px solid #3F3F3F; text-indent: 2px; }
+textarea {font-family: Arial; font-size: 12px; font-weight : normal; background-color: #F5F5F5; color: #000000; border: 1px solid #3F3F3F; text-indent: 2px; }
+select {font-family: Arial; font-size: 12px; font-weight : bold; background-color: #F5F5F5; border: 1px solid #3F3F3F; } 
+
+a.backlink { text-decoration: underline; font-family: california; font-size: 18px; color: white; }
+a.backlink:link, a.backlink:visited { text-decoration: underline; font-family: california; font-size: 18px; color: white; font-style: italic; }
+a.backlink:hover { text-decoration: none; background-color: transparent; font-size: 15px; color: #AEAEAE; font-style: italic; }
+
+div#menu
+{
+     float: left;
+    width: 150px;
+   
+}
+
+#bloc
+{
+    
+    margin-left: 170px;
+    border: 2px solid grey;
+
+ 
+
+}
+
+div#pied
+{
+    float: right;
+   
+    
+
+}
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} 
